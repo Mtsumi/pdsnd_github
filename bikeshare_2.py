@@ -89,7 +89,6 @@ def load_data(city, month, day):
         df = df[df['Day of Week'] == day.title()]
 
     
-    #print(df.head(5))
 
     return df
 
