@@ -1,17 +1,24 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
-Include the date you created this project and README file.
-
+23/09/2023
 ### Project Title
-Replace the Project Title
+#### BikeShare Application
 
-### Description
-Describe what your project is about and what it does
+This directory contains the BikeShare Terminal Application, which is part of the final project for the "Intro to Programming" course by Udacity.
 
-### Files used
-Include the files used
+#### Description
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The BikeShare Terminal Application is a command-line program that allows users to explore bike-sharing data for three major cities: Chicago, New York City, and Washington, D.C. Users can select a city and apply filters such as month and day of the week to view statistics related to bike rides, including time statistics, station statistics, trip duration statistics, and user statistics.
+
+#### How to Use the Application
+
+1. Make sure you have Python installed on your computer.
+
+2. Navigate to the "bikeshare" directory.
+
+3. Run the `bikeshare.py` script using Python, `./bikeshare.py`. (Make sure to enable executable permissions with `chmod + x bikeshare.py` before running the file.)
+
+4. Follow the on-screen prompts to select a city and apply various filters for analysis.
+
+5. View the statistics displayed in the terminal.
+
 
