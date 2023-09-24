@@ -17,8 +17,8 @@ The BikeShare Terminal Application is a command-line program that allows users t
 
 3. Run the `bikeshare.py` script using Python, `./bikeshare.py`. (Make sure to enable executable permissions with `chmod + x bikeshare.py` before running the file.)
 
-4. Follow the on-screen prompts to select a city and apply various filters for analysis.
+4. Follow the on-screen prompts closely to select a city and apply various filters for analysis.
 
-5. View the statistics displayed in the terminal.
+5. View the statistics displayed in the terminal and restart if you woud like to.
 
 
