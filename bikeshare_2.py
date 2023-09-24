@@ -130,7 +130,7 @@ def station_stats(df):
     start_time = time.time()
 
     if not df.empty:
-        # Most commonly used start station,
+        # Most commonly used start station
         common_start_station = df['Start Station'].mode()[0]
         common_start_station_count = df['Start Station'].value_counts().max()
         print(f"The most commonly used start station is: {common_start_station}")
@@ -195,7 +195,7 @@ def user_stats(df):
         for gender, count in gender_counts.items():
             print(f"{gender}: {count}")
     else:
-        print("Gender data not available for this city.")
+        print("Sorry, Gender data is not available for this city.")
 
     # Check if 'Birth Year' column exists in the DF.
     if 'Birth Year' in df.columns:
@@ -211,9 +211,9 @@ def user_stats(df):
             print(f"Most Recent Birth Year: {most_recent_birth_year}")
             print(f"Most Common Birth Year: {common_birth_year}")
         else:
-            print("No valid birth year data available for this city.")
+            print("Sorry, No valid birth year data available for this city.")
     else:
-        print("Birth year data not available for this city.")
+        print("Sorry, Birth year data not available for this city.")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-' * 40)
